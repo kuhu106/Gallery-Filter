@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+.portfolio {
+    min-height: 100vh;
+    padding: 50px 15px;
+    background-color: #673AB7;
+    float: left;
+    width: 100%;
+}
+.portfolio .heading {
+    width: 100%;
+    float: left;
+}
+.portfolio .heading h1{ 
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+    margin: 0 0 20px;
+    letter-spacing: 0.5px;
+}
+.portfolio .filter-btn {
+    float: left;width: 100%;
+    text-align: center;
+    padding: 30px 0 40px;
+}
+.portfolio .filter-btn ul {
+    list-style: none;
+    margin: 0; 
+    padding: 0;
+}
+.portfolio .filter-btn ul li{
+    display: inline-block; 
+    background-color: #9568e4;
+    padding: 6px 15px;
+    border-radius: 5px;
+    margin: 0px 1px;
+    cursor: pointer
+    color: #fff;
+    font-size: 16px; 
+}
+.portfolio .filter-btn ul li.active {
+    background-color: #FF9800;
+}
+.portfolio .items {
+    float: left;
+    width: 100%;
+}
+.portfolio .items .box {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+.portfolio .items .box .inner img {
+    width: 100%;
+    display: block;
+    
+}
